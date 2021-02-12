@@ -1,0 +1,93 @@
+.sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: rgb(22, 87, 122);
+  overflow-y: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-align: center;
+  font-family: "system-ui";
+  opacity: 0.5;
+  color: white;
+  display: block;
+  text-decoration: none;
+  float: right;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.navbar-nav {
+  list-style: none;
+}
+.logo-display {
+  width:  40%;
+  height: 40%;
+}
+
+
+body {
+  margin: 10% 6%;
+}
+
+h1 {
+  color: #7a6b16;
+  font-size: 36px;
+}
+h2 {
+  color: #7a6b16;
+  font-size: 28px;
+}
+h3 {
+  color: #7a6b16;
+  font-size: 28px;
+}
+
+h4 {
+  color: #7a6b16;
+  font-size: 28px;
+}
+
+#privins {
+  font-size: 28px;
+}
+
+#pshai_par {
+  display: block;
+}
+#ising_par {
+  display: block;
+}
+#zz {
+  display: inline-block;
+  box-shadow: 10px 10px 5px #ccc;
+}
+#isingimg {
+  display: inline-block;
+  box-shadow: 10px 10px 5px #ccc;
+}
+#presshmap {
+  display: inline-block;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+#fdensity {
+  display: inline-block;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+#rod {
+  display: inline-block;
+  box-shadow: 10px 10px 5px #ccc;
+}
+.audio_list {
+  list-style: none;
+}
