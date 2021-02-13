@@ -1,7 +1,7 @@
 .sidenav {
   background-color: rgb(22, 87, 122);
   box-sizing: border-box;
-  height: 10%;
+  height: 7%;
   left: 0;
   overflow-y: hidden;
   padding: 12px;
@@ -32,17 +32,18 @@ a:hover {
   width:  40%;
 }
 
+body {
+  margin-top: 5%;
+}
 
 section {
-  margin: 10% 3%;
+  margin: 5% 3%;
   padding: 8px 8px 8px 8px;
 }
 
 h1 {
   color: #7a6b16;
   font-size: 36px;
-  margin-top: 1%;
-  z-index: 1;
 }
 h2 {
   color: #7a6b16;
