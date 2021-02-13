@@ -1,24 +1,24 @@
 .sidenav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 10%;
-  width: 100%;
   background-color: rgb(22, 87, 122);
+  box-sizing: border-box;
+  height: 10%;
+  left: 0;
   overflow-y: hidden;
   padding: 20px;
-  box-sizing: border-box;
+  position: fixed;
+  top: 0;
   transition: .3s;
+  width: 100%;
 }
 .sidenav a {
-  padding: 8px 8px 8px 8px;
-  text-align: center;
-  font-family: "system-ui";
-  opacity: 0.5;
   color: white;
   display: block;
-  text-decoration: none;
   float: right;
+  font-family: "system-ui";
+  opacity: 0.5;
+  padding: 8px 8px 8px 8px;
+  text-align: center;
+  text-decoration: none;
 }
 
 a:hover {
@@ -29,8 +29,8 @@ a:hover {
   list-style: none;
 }
 .logo-display {
-  width:  40%;
   height: 40%;
+  width:  40%;
 }
 
 
@@ -41,6 +41,7 @@ body {
 h1 {
   color: #7a6b16;
   font-size: 36px;
+  z-index: 1;
 }
 h2 {
   color: #7a6b16;
@@ -67,26 +68,26 @@ h4 {
   display: block;
 }
 #zz {
-  display: inline-block;
   box-shadow: 10px 10px 5px #ccc;
+  display: inline-block;
 }
 #isingimg {
-  display: inline-block;
   box-shadow: 10px 10px 5px #ccc;
+  display: inline-block;
 }
 #presshmap {
-  display: inline-block;
   box-shadow: 10px 10px 5px #ccc;
+  display: inline-block;
 }
 
 #fdensity {
-  display: inline-block;
   box-shadow: 10px 10px 5px #ccc;
+  display: inline-block;
 }
 
 #rod {
-  display: inline-block;
   box-shadow: 10px 10px 5px #ccc;
+  display: inline-block;
 }
 .audio_list {
   list-style: none;
