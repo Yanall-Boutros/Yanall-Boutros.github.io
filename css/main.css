@@ -42,6 +42,7 @@ section {
 h1 {
   color: #7a6b16;
   font-size: 36px;
+  margin-top: 1%;
   z-index: 1;
 }
 h2 {
