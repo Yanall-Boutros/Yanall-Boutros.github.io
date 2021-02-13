@@ -2,12 +2,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 10%;
+  height: 15%;
   width: 100%;
   background-color: rgb(22, 87, 122);
   overflow-y: hidden;
   padding: 20px;
   box-sizing: border-box;
+  display: block;
   transition: .3s;
 }
 .sidenav a {
@@ -35,7 +36,7 @@ a:hover {
 
 
 body {
-  margin: 12% 6%;
+  margin: 15% 6%;
 }
 
 h1 {
