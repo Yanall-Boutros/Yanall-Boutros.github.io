@@ -8,7 +8,6 @@
   overflow-y: hidden;
   padding: 20px;
   box-sizing: border-box;
-  display: block;
   transition: .3s;
 }
 .sidenav a {
