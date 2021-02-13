@@ -9,6 +9,7 @@
   top: 0;
   transition: .3s;
   width: 100%;
+  z-index: 1;
 }
 .sidenav a {
   color: white;
