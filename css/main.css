@@ -34,8 +34,9 @@ a:hover {
 }
 
 
-body {
-  margin: 10% 6%;
+section {
+  margin: 7% 3%;
+  padding: 8px 8px 8px 8px;
 }
 
 h1 {
