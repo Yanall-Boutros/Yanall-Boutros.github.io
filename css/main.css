@@ -33,16 +33,14 @@ a:hover {
 }
 
 body {
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 section {
-  margin: 7% 3%;
   padding: 8px 8px 8px 8px;
 }
 
 h1 {
-  margin-top: 10%;
   color: #7a6b16;
   font-size: 36px;
 }
