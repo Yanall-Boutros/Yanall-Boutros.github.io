@@ -29,7 +29,9 @@ a:hover {
   list-style: none;
 }
 .logo-display {
-  float: right;
+  display: block;
+  width: 525;
+  height: 300;
 }
 
 body {
