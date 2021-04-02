@@ -1,10 +1,8 @@
 .sidenav {
   background-color: rgb(22, 87, 122);
   box-sizing: border-box;
-  height: 10%;
   left: 0;
   overflow-y: hidden;
-  padding: 12px;
   position: fixed;
   top: 0;
   transition: .3s;
@@ -16,7 +14,6 @@
   font-family: "system-ui";
   font-size: 20px;
   opacity: 0.5;
-  padding: 8px 8px 8px 8px;
   text-align: center;
   text-decoration: none;
 }
@@ -30,8 +27,14 @@ a:hover {
 }
 .logo-display {
   display: block;
-  width: 525px;
   height: 300px;
+  width: 525px;
+}
+.sec {
+  backdrop-filter: blur(100px);
+  margin: 10px 10px 5px 5px;
+  box-shadow: 10px 10px 5px #ccc;
+
 }
 
 body {
