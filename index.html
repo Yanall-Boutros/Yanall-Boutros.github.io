@@ -7,18 +7,7 @@
     <title> About </title>
   </head>
   <body>
-    <section>
-    <div class="sidenav">
-      <nav> 
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="index.html">    About and CV      </a></li>
-          <li class="nav-item"><a href="featured.html"> Featured Projects </a></li>
-          <li class="nav-item"><a href="services.html"> Services</a></li>
-        </ul>
-      </nav>
-    </div>
-    </section>
-    <section>
+    <section class=sec>
       <h1> About Yanall</h1>
       <p> Graduated from University of California, Santa Cruz in 4 years with a Bachelor of Science (B.S.) in
       Physics and B.S in Computer Science. I 
@@ -27,14 +16,80 @@
       AI techniques into my 
       hobbies is another fun way I kill time, however it usually leaves me desiring more.
 
-      My goal is to land a research position anywhere which applies artificial intelligence and machine learning 
-      techniques, and to support myself
-      with the services advertised on this website.</p>
+      My goal is to land a research position with a Quantum Computing firm, which hopefully involves artificial intelligence and machine learning algorithms.
       <h2> Contact and CV </h2>
       <p> A copy of my CV can be accessed <a href="images/Boutros_Yanall_CV.pdf"> here. </a> </p>
       <p> For all inquiries, please email me at YanallBoutros@Protonmail.com </p>
       <h3> SSH Key </h3>
-      <p> <a href="./C11B5F87AD72F96BCEEE22D1CFBA9C564B7FB4BD.asc"> If you would like to add me to your key ring, my public key is provided here.</p>
+      <p> <a href="./C11B5F87AD72F96BCEEE22D1CFBA9C564B7FB4BD.asc"> If you would like to add me to your key ring, my public key is provided here.</p> </a>
+    </section>
+    <section class=sec>
+    <h1>Back End Developer, Researcher </h1>
+    <p>
+      I bring a wide breadth of 
+      knowledge supported with a strong depth of applied logic. Both disciplines have a strong math background, but offer 
+      unique perspectives. The math in Computer Science is more abstract, and while it does explore some
+      of the problems in solving differential equations or linear algebra, Physics provides a much more advanced,
+      rigorous perspective on deriving the models for such problems.
+
+      As you can probably tell by how basic this website is, I am not a web developer.
+    </p>
+    <p>
+      Recent contracts:
+    </p>
+      <ul class="contract_list"> 
+        <li> Deriving unique combinatorics based on client information, then writing custom Haskell code</li>
+             for data recovery purposes.
+        <li> Setting up an internal surveillance network. </li>
+    </ul>
+    <h2> Professional Musician </h2>
+    <p> 
+        I play Piano, Violin, and Trombone. While I record much of my own music (a few loops are featured below) I am not trying to become a professional performer. I 
+        still enjoy collaborating with other musicians in composition, and will happily be featured in any 
+        tracks they might invite me to help with. For private tutoring, my rate is $50 an hour.
+    </p>
+    <ul class="audio_list">
+      <li><audio controls src="audio/019_1.WAV">  </audio> </li>
+      <li><audio controls src="audio/025_11.WAV"> </audio> </li>
+      <li><audio controls src="audio/033_1.WAV">  </audio> </li>
+    </ul>
+  </section>
+    <section class=sec>
+    <h1> Featured Projects </h1>
+    <h2>ParticleSHAI</h2> 
+      <img id="zz" src="images/zz.png" width=500 height=500> <img id=zz src="images/ttbar.png"    width=500 height=500>
+      <p id=pshai_par> 
+        Particle <b>S</b>imulations <b>H</b>istograms <b>A</b>rtificial <b>I</b>ntelligence is a Data Analysis Framework 
+        written in Python. Packages such as  Pythia, Pyjet, Matplotlib, and TensorFlow are utilized as the back end to
+        simulate events in the Large Hadron Collider. For more information, <a href="images/Boutros, Yanall - Thesis.pdf"> please refer my Senior Thesis here.</a>
+      </p>
+    </section>
+    <section class=sec>
+      <h3> Ising Model Simulation </h3>
+      <img id="isingimg" src="images/ising.gif" width=500 height=500> 
+      <p id="ising_par"> 
+        The Ising model displays the thermodynamic properties of a ferromagnet by simulating the interactions of N<sup>2</sup> 
+        atoms (or spin-sites) on an N × N grid. In the animation above, energy is gradually increased in time, until the 
+        structure of the lattice becomes more chaotic, indicating a phase change. For more information, <a href="images/REPORT.pdf">
+          please refer the original report here.</a>
+      </p>
+    </section>
+    <section class=sec>
+      <h4> Simulations of Partial Differential Equations</h4>
+      <img id="rod" src="images/rod.gif" width=500 height=500>
+      <p id="rod_par">
+        Simulation of needle with surfaces cooled to -20 Celsius and inlet temperature set to a sine function. The simulation
+        has been sped up to fit in a gif. In the program, time is an input controlled by a slider. To represent the 
+        passage of time in a gif that's been sped up ~31x, a repeat in the color of the pipe indicates ~10 seconds have passed
+        in the simulation.
+      </p>
+
+      <img id="presshmap" src="images/presshmap.png" width=500 height=500>
+      <img id="fdensity" src="images/fdgap.png" width=500 height=500>
+      <p id="presspar">
+        Contour heat-map of pressure in a mask gap and
+        Plot of force density vector field.
+      </p>
     </section>
   </body>
 </html>
