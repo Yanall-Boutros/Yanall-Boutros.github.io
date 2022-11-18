@@ -148,7 +148,7 @@
 		  
       </div>
       <div class="col-md-5 order-md-1">
-        <img id="isingimg" src="images/ising.gif" class="img-thumbnail" alt="Responsive image"></img> 
+        <img id="isingimg" src="images/ising.gif" class="img-fluid" alt="Responsive image"></img> 
       </div>
     </div>
 
@@ -163,8 +163,8 @@
         in the simulation.</p>
       </div>
       <div class="col-md-5">
-	    <img src="images/rod.gif" class="img-thumbnail" alt="Responsive image">
-        <img src="images/fdgap.png" class="img-thumbnail" alt="Responsive image">
+	    <img src="images/rod.gif" class="img-fluid" alt="Responsive image">
+        <img src="images/fdgap.png" class="img-fluid" alt="Responsive image">
       </div>
     </div>
 
