@@ -5,7 +5,6 @@
 body {
   padding-bottom: 3rem;
   color: #5a5a5a;
-  background-color: black
 }
 
 
@@ -49,16 +48,6 @@ body {
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
-}
-
-.list-group-item {
-  background-color: #33333333
-}
-.col-md-7 {
-  background-color: #33333333
-}
-.col-md-5 {
-  background-color: #33333333
 }
 
 /* Featurettes
